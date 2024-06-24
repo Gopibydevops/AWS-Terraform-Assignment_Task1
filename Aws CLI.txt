@@ -1,0 +1,8 @@
+# To upload a file from the EC2 instance to an S3 bucket using AWS CLI:
+
+# aws s3 cp /path_to_your_file s3://your_bucket_name/path_in_bucket
+
+# Explanation:
+# /path_to_your_file: Path to the file on the EC2 instance.
+# s3://your_bucket_name/path_in_bucket: The S3 bucket and the desired path 
+# in the bucket where the file will be uploaded.

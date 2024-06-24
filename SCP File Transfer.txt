@@ -1,0 +1,8 @@
+# SCP File Transfer
+# scp -i path_to_your_key.pem path_to_your_file ec2-user@ec2_public_dns:/path_to_destination
+# scp -i ~/.ssh/C:/Users/USER/Desktop/Keypairs/NewkeyPair.pem ~/C:/Users/USER/Desktop/file.txt ec2-user@3.110.161.75:/home/ec2-user/
+
+# -i path_to_your_key.pem: Specifies the private key file for SSH authentication.
+# path_to_your_file: Path to the file you want to transfer.
+# ec2-user@ec2_public_dns: The default username and the public DNS of your EC2 instance.
+# /path_to_destination: The destination path on the EC2 instance where you want to upload the file.
